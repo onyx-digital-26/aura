@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  /* --- AURA PALETTE --- */
+  /* Deepest Midnight Blue (Background) */
+  --background: #05080f;
+  /* Platinum/Off-White (Text) */
+  --foreground: #e2e8f0;
+  /* Soft Lilac (Accent/Glow) */
+  --accent: #a5b4fc;
+
+  /* Glass Effect Variables */
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.08);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+
+  /* Link CSS variables to Tailwind classes */
+  --font-serif: var(--font-cormorant);
+  --font-sans: var(--font-montserrat);
+}
+
+/* --- BASE STYLES --- */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  -webkit-font-smoothing: antialiased;
+}
+
+/* --- CUSTOM UTILITIES --- */
+
+/* 1. The Aura Glass Panel */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* 2. Holographic Text Glow */
+.text-glow {
+  text-shadow: 0 0 20px rgba(165, 180, 252, 0.4);
+}
+
+/* 3. Hide Scrollbar (Clean Look) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
