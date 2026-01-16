@@ -15,6 +15,8 @@ const navLinks = [
   { name: "Ingredients", href: "/ingredients" },
   { name: "Scent Quiz", href: "/quiz" },
   { name: "Concierge", href: "/contact" },
+  {name: "FAQ", href: "/faq"},
+  {name: "Shipping", href: "/shipping"}
 ];
 
 export default function Header() {
