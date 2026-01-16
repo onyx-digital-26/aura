@@ -10,7 +10,7 @@ import { ArrowUpRight } from "lucide-react";
 const allProducts = [
   {
     id: 1,
-    slug: "Oceanic Surge",
+    slug: "Oceanic-Surge",
     name: "Oceanic Surge",
     category: "Fresh",
     price: "$145",
@@ -18,7 +18,7 @@ const allProducts = [
   },
   {
     id: 2,
-    slug: "Azure Depth",
+    slug: "Azure-Depth",
     name: "Azure Depth",
     category: "Marine",
     price: "$180",
@@ -26,7 +26,7 @@ const allProducts = [
   },
   {
     id: 3,
-    slug: "Velvet Blush",
+    slug: "Velvet-Blush",
     name: "Velvet Blush",
     category: "Floral",
     price: "$120",
@@ -34,7 +34,7 @@ const allProducts = [
   },
   {
     id: 4,
-    slug: "Ember Wood",
+    slug: "Ember-Wood",
     name: "Ember Wood",
     category: "Woody",
     price: "$160",
