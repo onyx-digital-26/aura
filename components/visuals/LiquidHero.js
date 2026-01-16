@@ -1,7 +1,6 @@
 "use client";
 
 import { useRef, useState, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "framer-motion";
 
@@ -87,13 +86,6 @@ export default function LiquidHero() {
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
             className="relative w-full h-full"
           >
-            <Image
-              src="/images/hero-bottle.png"
-              alt="Luxury Perfume"
-              fill
-              className="object-contain drop-shadow-[0_0_50px_rgba(165,180,252,0.2)]"
-              priority
-            />
           </motion.div>
         </motion.div>
 

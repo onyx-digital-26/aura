@@ -84,6 +84,12 @@ export default function Header() {
             {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-8">
               <Link
+                href="/home"
+                className="text-xs uppercase tracking-widest hover:text-accent transition-colors"
+              >
+                Home
+              </Link>
+              <Link
                 href="/shop"
                 className="text-xs uppercase tracking-widest hover:text-accent transition-colors"
               >
