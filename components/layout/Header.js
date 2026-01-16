@@ -9,14 +9,15 @@ import { useShop } from "@/context/ShopContext";
 
 // --- UPDATED LINKS (Matching our created pages) ---
 const navLinks = [
+  { name: "Home", href: "/" },
   { name: "Shop", href: "/shop" },
   { name: "The Nose", href: "/about" },
   { name: "Journal", href: "/journal" },
   { name: "Ingredients", href: "/ingredients" },
   { name: "Scent Quiz", href: "/quiz" },
   { name: "Concierge", href: "/contact" },
-  {name: "FAQ", href: "/faq"},
-  {name: "Shipping", href: "/shipping"}
+  { name: "FAQ", href: "/faq" },
+  { name: "Shipping", href: "/shipping" },
 ];
 
 export default function Header() {
